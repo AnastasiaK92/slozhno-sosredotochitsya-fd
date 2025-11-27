@@ -6,22 +6,19 @@
   --bg-image-dark: url("../images/cover-image-dark.png");
   --bg-image-light: url("../images/cover-image-light.png");
   /*переменные для темной темы*/
-  --bg-image: url(var(--bg-image-dark));
+  --bg-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
   --text-color: #000028;
-  --text-primary:#DB00FF;
-  --decor-color: #FF0070;
-  --menu-text-color:#FF0070;
-  --heading-2-color:#ff0070;
-  --body-text-color:#f1b2ce;
-  --title-guide-color:#000028;
-  --background-color:#000331;
-  --border-color-active:#ff0070;
-  --button-border-hover-color:#ff0070;
-  --link-focus-color:#F1B2CE;
-  --link-hover-color:#f1b2ce;
-  --shadow-decor-color:rgba(255,0, 112, 0.5);
+  --text-primary: #db00ff;
+  --decor-color: #ff0070;
+  --menu-text-color: #ff0070;
+  --heading-2-color: #ff0070;
+  --body-text-color: #f1b2ce;
+  --title-guide-color: #000028;
+  --background-color: #000331;
+  --border-color-active: #ff0070;
+  --button-border-hover-color: #ff0070;
+  --link-focus-color: #f1b2ce;
+  --link-hover-color: #f1b2ce;
+  --shadow-decor-color: rgba(255, 0, 112, 0.5);
 }
-
-
-

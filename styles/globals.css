@@ -12,11 +12,6 @@ body {
   margin: 0 auto;
 }
 
-header {
-  block-size: 100vh;
-  min-block-size: 668px;
-}
-
 h1,
 h2,
 h3,
