@@ -1,11 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-.header__theme-menu-button.header__theme-menu-button_active {
-  pointer-events: none;
-  border: 1px solid var(--border-color-active);
-  display: block;
-  background-color: transparent;
-}
-
 .header_title {
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -103,6 +96,16 @@
   padding-inline-end: 13px;
   padding-block-end: 5px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+  border: 1px solid var(--border-color-active);
+  display: block;
+  background-color: transparent;
 }
 
 .header__theme-menu-list {
@@ -414,23 +417,21 @@
     padding-block-start: 159px;
   }
 
-  .header__theme-menu-button_type_auto {
-    padding-inline-end: 23px;
-  }
-
   .threat-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding-block-start: 1px;
   }
+
   .header__theme-menu-list {
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0;
+    gap: 10px;
   }
 
   .header__theme-menu {
     justify-self: center;
+    padding-right: 11px;
   }
 
   .section-why-focus-hard {
